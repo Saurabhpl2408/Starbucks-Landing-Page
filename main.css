@@ -1,0 +1,261 @@
+
+
+
+.main-container{
+    max-width: 1440px;
+    margin:0 auto;
+   
+}
+
+.announcements{
+    background-color: #d8e8e3;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+} 
+
+.announcements span{
+    background-color: #d8e8e3;
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+    max-width: 60%;
+    text-align: center;
+    font-size: 19px;
+    line-height: 1.75;
+    font-weight: 500;
+}
+
+.left-right-section{
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.left-right-section .text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f8f6;
+    color: #1e3932;
+    padding: 32px 48px;
+}
+
+.left-right-section .image{
+    width:50%;
+    display: flex;
+
+}
+
+.left-right-section .image img{
+    width: 100%;
+}
+
+.left-right-section text h1,h3{
+    margin: 0;
+    font-weight: 400;
+}
+
+.text h1{
+    margin-bottom: 24px;
+    text-align: center;
+}
+.text h3{
+    margin-bottom: 32px;
+    font-size: 19px;
+    text-align: center;
+}
+
+.text .cta{
+    padding: 7px 16px;
+    border: 1px solid;
+    border-radius: 50px;
+    color: #1e3932;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.text .cta:hover{
+    background-color: rgba(30, 57, 50, .1);
+}
+
+.chill .text{
+    background-color: #f2f0cb;
+}
+.chill .text h1{
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 50px;
+    letter-spacing: 8px;
+}
+
+.chill .text h3{
+    font-size: 24px;
+    line-height: 1.5;
+    
+}
+
+section{
+    display: flex;
+
+}
+
+.top-bottom-section{
+    width: 50%;
+}
+
+.section-conatiner{
+    display: flex;
+    flex-direction: column;
+}
+
+.top-bottom-section .image{
+    width:100%;
+
+}
+.top-bottom-section .image img{
+    width: 100%;
+}
+
+.top-bottom-section .text{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cta-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-container-order-now{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 22px;
+}
+
+.top-bottom-section:first-child .section-container{
+    margin-right: 16px;
+}
+.top-bottom-section:last-child .section-container{
+    margin-left: 16px;
+}
+
+.top-bottom-section .image{
+    display: flex;
+}
+.top-bottom-section .text{
+    background-color: #d4e9e2;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 32px; 
+    padding-top: 16px;
+    color:#1e3932;
+    flex-grow: 1;
+    font-size: 16px;
+   
+}
+
+.top-bottom-section .test h1{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.top-bottom-section .text h3{
+    font-size: 19px;
+    line-height: 1.75;
+}
+
+.top-bottom-section{
+    display: flex;
+    margin-bottom: 32px;
+}
+
+
+
+/* Footer section*/
+
+footer{
+    height: 200px;
+    padding-top:40px;
+    border-top: 2px solid rgba(0, 0, 0, 0.199);
+    color:rgba(0, 0, 0, 0.87);
+    margin:40px 0;
+    box-shadow: 0 -1px 3px rgb(0 0 0 / 10%), 0 -2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);;
+}
+
+
+.footer-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.footer-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap:2rem;
+    font-family:  SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.links-container h3{
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 29px;
+    margin-bottom: 27px;
+}
+
+.links-container li{
+    color: rgba(0,0,0,.56);
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 15px;
+    font-size: 1rem;
+    margin: 15px 0;
+    color: rgba(0, 0, 0, o.56);
+}
+
+.links-container li:hover{
+    color:rgba(0,0,0,.87);
+    cursor: pointer;
+}
+
+.footer-main h3, li{
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+}
+
+.pride-month .text {
+    background-color: #d4e9e2;
+    color: black;
+  }
+  
+  .pride-month .text h1 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+  }
+  
+  .pride-month .text h3 {
+    font-size: 19px;
+    line-height: 33px;
+    font-weight: 600;
+    width: 75%;
+  }
+  
+  .restrictions p {
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
+    line-height: 25px;
+    font-size: 14px;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+  }
+  
+  .restrictions p:first-child {
+    margin-bottom: 30px;
+  }

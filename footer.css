@@ -1,0 +1,94 @@
+footer{
+    height: 200px;
+    padding-top:40px;
+    border-top: 2px solid rgba(0, 0, 0, 0.199);
+    color:rgba(0, 0, 0, 0.87);
+    margin:40px 0;
+    box-shadow: 0 -1px 3px rgb(0 0 0 / 10%), 0 -2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);;
+}
+
+
+.footer-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+}
+
+.footer-container ul li:hover{
+    color:rgba(0, 0, 0, .56);
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    margin-bottom: .8rem;
+    cursor: pointer;
+
+}
+
+.links-container{
+    width: 190px;
+    margin-right: 16px;
+}
+
+.footer-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap:2rem;
+}
+
+.footer h3{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 29px;
+    margin-bottom: 27px;
+}
+
+.footer li{
+    line-height: 24px;
+    font-size: 1rem;
+    margin: 15px 0;
+    color: rgba(0, 0, 0, o.56);
+}
+
+
+.footer-icons .social-icons {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.footer-icons .social-icons ul {
+    display: flex;
+}
+
+.footer-icons .social-icons ul li {
+    list-style-type: none;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.footer-icons .social-icons ul li:hover {
+    color: rgba(57, 62, 63, 0.315);
+}
+
+.privacy-container .policy ul li {
+    cursor: pointer;
+}
+
+.privacy-container .policy ul span {
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.privacy-container .policy ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.privacy-container .policy ul li:hover {
+    text-decoration: underline;
+}
+
+.trademark-container .reserved {
+    font-size: 14px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
